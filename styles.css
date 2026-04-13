@@ -2,17 +2,14 @@
   --bg: #07111f;
   --bg-2: #0b1730;
   --panel: rgba(12, 23, 42, 0.82);
-  --panel-strong: #0f1b31;
   --text: #f4f7fb;
   --muted: #9caec7;
   --line: rgba(255, 255, 255, 0.1);
   --primary: #5da8ff;
   --primary-2: #7c5cff;
   --success: #36d399;
-  --danger: #ff6b81;
   --shadow: 0 20px 80px rgba(0, 0, 0, 0.35);
 }
-
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
@@ -98,15 +95,14 @@ body {
   right: 0;
   top: calc(100% + 12px);
   width: min(320px, calc(100vw - 32px));
-  background: rgba(10, 18, 34, 0.96);
+  background: rgba(10, 18, 34, 0.98);
   border: 1px solid var(--line);
   border-radius: 24px;
   box-shadow: var(--shadow);
   padding: 12px;
   display: none;
 }
-.menu-wrap:hover .menu-panel,
-.menu-wrap:focus-within .menu-panel { display: block; }
+.menu-wrap.open .menu-panel { display: block; }
 .menu-panel a {
   display: block;
   text-decoration: none;
@@ -201,10 +197,7 @@ main {
 .game-list article { padding: 16px; border-radius: 18px; background: rgba(255, 255, 255, 0.05); }
 .game-list h3 { font-size: 16px; margin-bottom: 4px; }
 .game-list p { color: var(--muted); font-size: 14px; }
-.game-list button {
-  border: 0; border-radius: 12px; padding: 10px 14px; font-weight: 700;
-  background: rgba(93, 168, 255, 0.18); color: #d9eaff;
-}
+.game-list button { border: 0; border-radius: 12px; padding: 10px 14px; font-weight: 700; background: rgba(93, 168, 255, 0.18); color: #d9eaff; }
 .features, .cards, .content-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -226,10 +219,7 @@ main {
   font-size: 12px;
   font-weight: 800;
 }
-.content-card ul {
-  margin: 12px 0 0;
-  padding-left: 18px;
-}
+.content-card ul { margin: 12px 0 0; padding-left: 18px; }
 footer {
   max-width: 1180px;
   margin: 0 auto;
