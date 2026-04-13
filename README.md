@@ -5,12 +5,12 @@ Bộ khung giao diện nhiều trang cho dự án HACKMODVIP.
 ## Các trang hiện có
 
 - `/` Trang Chủ
-- `/filegameipa`
-- `/caitructiep`
-- `/muakey`
-- `/muachungchi`
-- `/lienhe`
-- `/thamgiacongdong`
+- `/filegameipa/`
+- `/caitructiep/`
+- `/muakey/`
+- `/muachungchi/`
+- `/lienhe/`
+- `/thamgiacongdong/`
 
 ## Triển khai
 
