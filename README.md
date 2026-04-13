@@ -1,11 +1,17 @@
 # HACKMODVIP
 
-Bộ khung web demo đầu tiên cho dự án HACKMODVIP.
+Bộ khung giao diện nhiều trang cho dự án HACKMODVIP.
 
-## Chạy local
+## Các trang hiện có
 
-Chỉ cần mở `index.html` trong trình duyệt.
+- `/` Trang Chủ
+- `/filegameipa`
+- `/caitructiep`
+- `/muakey`
+- `/muachungchi`
+- `/lienhe`
+- `/thamgiacongdong`
 
-## Triển khai Vercel
+## Triển khai
 
-Vì đây là static site, chỉ cần import repo vào Vercel là chạy được ngay.
+Static site, phù hợp với GitHub Pages hoặc Vercel.

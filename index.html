@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HACKMODVIP</title>
-    <meta name="description" content="Kho giao diện web mẫu cho dự án HACKMODVIP" />
+    <title>HACKMODVIP - Trang chủ</title>
+    <meta name="description" content="Trang chủ giới thiệu HACKMODVIP" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -13,135 +13,92 @@
   <body>
     <div class="bg-glow bg-glow-1"></div>
     <div class="bg-glow bg-glow-2"></div>
-
-    <header class="topbar">
-      <div class="brand">
-        <div class="brand-badge"></div>
+    <header class="site-header">
+      <a class="brand" href="./index.html">
+        <div class="brand-badge">≡</div>
         <div>
           <p class="brand-label">HACKMODVIP</p>
-          <h1>Kho game iOS hiện đại</h1>
+          <h1>HACKMODVIP</h1>
         </div>
+      </a>
+      <div class="menu-wrap">
+        <button class="menu-toggle" aria-label="Mở menu điều hướng">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="menu-panel">
+          <a class="active" href="./index.html">Trang Chủ</a>
+          <a href="./filegameipa.html">FILE GAME IPA</a>
+          <a href="./caitructiep.html">CÀI TRỰC TIẾP</a>
+          <a href="./muakey.html">MUA KEY (ALL GAME)</a>
+          <a href="./muachungchi.html">MUA CHỨNG CHỈ</a>
+          <a href="./lienhe.html">LIÊN HỆ</a>
+          <a href="./thamgiacongdong.html">THAM GIA CỘNG ĐỒNG</a>
+        </nav>
       </div>
-      <nav>
-        <a href="#features">Tính năng</a>
-        <a href="#games">Kho game</a>
-        <a href="#contact">Liên hệ</a>
-      </nav>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-copy">
-          <span class="pill">Bản dựng demo đầu tiên</span>
-          <h2>Giao diện web sẵn sàng để phát triển thành trang giới thiệu hoặc dashboard tải game.</h2>
+          <span class="pill">Trang giới thiệu mặc định</span>
+          <h2>Trang chủ là nơi vào đầu tiên, giới thiệu nhanh về hệ sinh thái HACKMODVIP.</h2>
           <p>
-            Mình dựng trước một landing page hiện đại, nền tối, hợp mobile, để bạn có repo sống ngay trên GitHub và sau này nối Vercel là chạy được luôn.
+            Mình đã dựng menu 3 gạch ở góc phải trên cùng, ngang với tên web. Từ đây bạn có thể tách riêng từng trang chức năng để sau này đổ nội dung thật vào.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#games">Xem demo</a>
-            <a class="btn btn-secondary" href="#contact">Bắt đầu tuỳ biến</a>
+            <a class="btn btn-primary" href="./filegameipa.html">Đi đến FILE GAME IPA</a>
+            <a class="btn btn-secondary" href="./lienhe.html">Xem trang liên hệ</a>
           </div>
           <div class="stats">
             <div>
-              <strong>3+</strong>
-              <span>Khối nội dung mẫu</span>
+              <strong>7</strong>
+              <span>Trang riêng đã tạo</span>
             </div>
             <div>
-              <strong>100%</strong>
-              <span>Responsive cơ bản</span>
+              <strong>Menu 3 gạch</strong>
+              <span>Điều hướng rõ ràng</span>
             </div>
             <div>
-              <strong>Ready</strong>
-              <span>Để đẩy lên Vercel</span>
+              <strong>Static</strong>
+              <span>Hợp GitHub Pages</span>
             </div>
           </div>
         </div>
-
         <div class="hero-card">
-          <div class="window-bar">
-            <span></span><span></span><span></span>
-          </div>
+          <div class="window-bar"><span></span><span></span><span></span></div>
           <div class="phone-frame">
             <div class="phone-header">
-              <p>Top game iOS</p>
-              <span>Online</span>
+              <p>Điều hướng nhanh</p>
+              <span>Sẵn sàng</span>
             </div>
             <div class="game-list">
-              <article>
-                <div>
-                  <h3>Shadow Arena</h3>
-                  <p>Hành động, co-op</p>
-                </div>
-                <button>Cài</button>
-              </article>
-              <article>
-                <div>
-                  <h3>Pixel Rush</h3>
-                  <p>Arcade, nhẹ máy</p>
-                </div>
-                <button>Cài</button>
-              </article>
-              <article>
-                <div>
-                  <h3>Empire Tactics</h3>
-                  <p>Chiến thuật, online</p>
-                </div>
-                <button>Cài</button>
-              </article>
+              <article><div><h3>FILE GAME IPA</h3><p>Trang danh sách file</p></div><button>Vào</button></article>
+              <article><div><h3>CÀI TRỰC TIẾP</h3><p>Trang hướng dẫn cài</p></div><button>Vào</button></article>
+              <article><div><h3>MUA KEY / CHỨNG CHỈ</h3><p>Trang bán dịch vụ</p></div><button>Vào</button></article>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="features" id="features">
+      <section class="features">
         <article class="feature-box">
           <span>01</span>
-          <h3>Thiết kế gọn và hiện đại</h3>
-          <p>Dùng layout sáng rõ, dễ nâng cấp thành landing page, blog, hoặc trang giới thiệu dịch vụ.</p>
+          <h3>Trang chủ ưu tiên load</h3>
+          <p>Đây là trang mặc định khi người dùng mở website, dùng để giới thiệu tổng quan và dẫn hướng.</p>
         </article>
         <article class="feature-box">
           <span>02</span>
-          <h3>Tối ưu cho điện thoại</h3>
-          <p>Khung nội dung co giãn tốt trên mobile, hợp với cách người dùng truy cập từ Telegram hoặc Safari.</p>
+          <h3>Mỗi mục là 1 link riêng</h3>
+          <p>Từng phần đã được tách thành file HTML riêng để dễ map tiếp sang route hoặc framework sau này.</p>
         </article>
         <article class="feature-box">
           <span>03</span>
-          <h3>Triển khai rất dễ</h3>
-          <p>Chỉ cần push lên GitHub, import vào Vercel là có thể lên site ngay mà không cần server riêng.</p>
+          <h3>Khung giao diện rõ ràng</h3>
+          <p>Mình để sẵn cấu trúc để bạn thay nội dung thật từng mục mà không cần đập lại từ đầu.</p>
         </article>
       </section>
-
-      <section class="games" id="games">
-        <div class="section-title">
-          <span>Kho mẫu</span>
-          <h2>Một vài thẻ nội dung để bạn hình dung hướng phát triển</h2>
-        </div>
-        <div class="cards">
-          <article class="game-card">
-            <div class="tag">Nổi bật</div>
-            <h3>Trang giới thiệu app</h3>
-            <p>Dùng để giới thiệu ứng dụng, nút tải, ảnh chụp màn hình, phản hồi người dùng.</p>
-          </article>
-          <article class="game-card">
-            <div class="tag">Phù hợp</div>
-            <h3>Kho game / danh mục IPA</h3>
-            <p>Sau này có thể nối API, thêm tìm kiếm, bộ lọc, danh sách game và chi tiết từng mục.</p>
-          </article>
-          <article class="game-card">
-            <div class="tag">Có thể mở rộng</div>
-            <h3>Dashboard quản trị</h3>
-            <p>Thêm đăng nhập, quản lý nội dung, thống kê lượt truy cập và cập nhật game.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="contact" id="contact">
-        <div>
-          <span class="pill">Sẵn sàng phát triển tiếp</span>
-          <h2>Nếu bạn chốt hướng, mình sẽ biến bộ khung này thành web thật.</h2>
-        </div>
-        <a class="btn btn-primary" href="https://github.com/Cuongqtx11/HACKMODVIP" target="_blank" rel="noreferrer">Mở GitHub repo</a>
-      </section>
     </main>
+
+    <footer>© 2026 HACKMODVIP. Bản giao diện demo đầu tiên.</footer>
   </body>
 </html>
