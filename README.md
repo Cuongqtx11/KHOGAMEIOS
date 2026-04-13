@@ -1,6 +1,6 @@
-# KHOGAMEIOS
+# HACKMODVIP
 
-Bộ khung web demo đầu tiên cho dự án KHOGAMEIOS.
+Bộ khung web demo đầu tiên cho dự án HACKMODVIP.
 
 ## Chạy local
 
